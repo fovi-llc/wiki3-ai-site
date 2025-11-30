@@ -1,0 +1,6 @@
+[submodule "built-in-ai-chat-kernel"]
+	path = built-in-ai-chat-kernel
+	url = https://github.com/fovi-llc/built-in-ai-chat-kernel
+[submodule "built-in-ai-webllm-kernel"]
+	path = built-in-ai-webllm-kernel
+	url = https://github.com/fovi-llc/built-in-ai-webllm-kernel
