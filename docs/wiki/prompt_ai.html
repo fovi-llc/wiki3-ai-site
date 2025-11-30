@@ -7637,16 +7637,18 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%F0%9F%9A%A7-JupyterLab-Only-ATM-%F0%9F%9A%A7">🚧 JupyterLab Only ATM 🚧<a class="anchor-link" href="#%F0%9F%9A%A7-JupyterLab-Only-ATM-%F0%9F%9A%A7">¶</a></h3><p>The Python wiki3_ai package wrapping the Prompt API currently only works in JupyterLab notebooks, not JupyterLite.</p>
+<h3 id="%F0%9F%9A%A7-JupyterLab-Only-ATM-%F0%9F%9A%A7">🚧 JupyterLab Only ATM 🚧<a class="anchor-link" href="#%F0%9F%9A%A7-JupyterLab-Only-ATM-%F0%9F%9A%A7">¶</a></h3><p>The Python <code>wiki3_ai</code> package wrapping the <a href="https://developer.chrome.com/docs/ai/prompt-api">Built-in AI Prompt API</a> currently only works in JupyterLab notebooks, not JupyterLite.</p>
+<p>Launch the <a href="https://github.com/fovi-llc/wiki3-ai-site">https://github.com/fovi-llc/wiki3-ai-site</a> repo and open the <a href="https://github.com/fovi-llc/wiki3-ai-site/blob/main/files/prompt_ai.ipynb">files/prompt_ai.ipynb</a> notebook file (source for this page) using this link:
+<a href="https://mybinder.org/v2/gh/fovi-llc/wiki3-ai-site/HEAD?urlpath=%2Fdoc%2Ftree%2Ffiles%2Fprompt_ai.ipynb"><img alt="Binder" src="https://mybinder.org/badge_logo.svg"/></a></p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install -q anywidget ipywidgets wiki3_ai
@@ -7655,12 +7657,26 @@ a.anchor-link {
 </div>
 </div>
 </div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre><span class="ansi-yellow-fg">WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.</span><span class="ansi-yellow-fg">
+</span>Note: you may need to restart the kernel to use updated packages.
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">gui</span> asyncio
@@ -7674,7 +7690,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Import the library</span>
@@ -7689,7 +7705,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">LanguageModel</span><span class="o">.</span><span class="n">widget</span><span class="p">()</span>
@@ -7703,9 +7719,9 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;wiki3_ai.language_model.LanguageModelWidget object at 0xffffb0ba4050&gt;</pre>
+<pre>&lt;wiki3_ai.language_model.LanguageModelWidget object at 0xffff88797380&gt;</pre>
 </div>
 </div>
 </div>
@@ -7715,7 +7731,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">wiki3_ai</span>
@@ -7730,7 +7746,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>'0.5.1'</pre>
 </div>
@@ -7753,7 +7769,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Check if the API is available</span>
@@ -7768,7 +7784,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>'available'</pre>
 </div>
@@ -7791,7 +7807,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">params</span> <span class="o">=</span> <span class="k">await</span> <span class="n">LanguageModel</span><span class="o">.</span><span class="n">params</span><span class="p">()</span>
@@ -7825,7 +7841,7 @@ Max top-K: 128
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>{'defaultTopK': 3,
  'maxTopK': 128,
@@ -7851,7 +7867,7 @@ Max top-K: 128
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">lm</span> <span class="o">=</span> <span class="k">await</span> <span class="n">LanguageModel</span><span class="o">.</span><span class="n">create</span><span class="p">()</span>
@@ -7866,9 +7882,9 @@ Max top-K: 128
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;wiki3_ai.language_model.LanguageModel at 0xffffb0ba57f0&gt;</pre>
+<pre>&lt;wiki3_ai.language_model.LanguageModel at 0xffff886a4d70&gt;</pre>
 </div>
 </div>
 </div>
@@ -7889,7 +7905,7 @@ Max top-K: 128
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Send a prompt</span>
@@ -7907,9 +7923,9 @@ Max top-K: 128
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Code flows, clear and bright,
-Indentation guides the way,
-Logic takes new form. 
+<pre>Clean syntax flows free,
+Logic blooms, a vibrant code,
+Power in each line. 
 
 
 
@@ -7935,7 +7951,7 @@ Logic takes new form.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create a session with a system prompt</span>
@@ -7974,7 +7990,7 @@ with open('your_file.csv', 'r') as file:
         print(row)
 ```
 
-Replace `'your_file.csv'` with the actual file name.  This opens the CSV, creates a reader object, and iterates through each row.  Each `row` is a list of strings.  For more complex CSVs, consider `csv.DictReader`.
+This code reads a CSV file, iterates through each row, and prints it.  Replace `'your_file.csv'` with the actual filename.  `csv.reader` handles the parsing of the comma-separated values.
 
 </pre>
 </div>
@@ -7986,7 +8002,7 @@ Replace `'your_file.csv'` with the actual file name.  This opens the CSV, create
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">assistant_session</span><span class="o">.</span><span class="n">prompt</span><span class="p">(</span><span class="s2">"Please return just the code to read a CSV file in Python.  Include detailed comments."</span><span class="p">)</span>
@@ -8008,24 +8024,25 @@ import csv
 
 def read_csv(filename):
   """
-  Reads a CSV file and prints each row.
+  Reads a CSV file and returns each row as a list.
 
   Args:
     filename: The name of the CSV file to read.
-  """
-  try:
-    with open(filename, 'r', newline='') as file:  # Open the file in read mode ('r') using 'with' for automatic closing.  newline='' prevents extra blank rows.
-      reader = csv.reader(file)  # Create a CSV reader object.
-      for row in reader:  # Iterate over each row in the CSV file.
-        print(row)  # Print the row.
-  except FileNotFoundError:
-    print(f"Error: File '{filename}' not found.")
-  except Exception as e:
-    print(f"An error occurred: {e}")
 
-# Example usage:
-#read_csv('your_file.csv')  # Replace 'your_file.csv' with your CSV file name
+  Returns:
+    None. Prints each row to the console.
+  """
+  with open(filename, 'r') as file:  # Open the file in read mode ('r') using a 'with' statement (ensures file closure)
+    reader = csv.reader(file)  # Create a CSV reader object
+    for row in reader:  # Iterate through each row in the CSV file
+      print(row)  # Print each row (which is a list of strings)
+
+
+
+# Example usage (assuming you have a file named 'your_file.csv'):
+# read_csv('your_file.csv')
 ```
+
 </pre>
 </div>
 </div>
@@ -8066,9 +8083,12 @@ def read_csv(filename):
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Response: Why did the computer get glasses? 
+<pre>Response: Why was the computer cold? 
 
-Because it needed to improve its website! 
+It left its Windows open!
+
+
+
 
 </pre>
 </div>
@@ -8098,76 +8118,11 @@ Because it needed to improve its website!
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Okay, here's a long poem I've crafted. It's about a journey through a fantastical, ever-changing landscape.  It’s meant to evoke imagery and a sense of wonder.  It's a bit abstract, but hopefully, you'll find something to enjoy!
+<pre>Please specify a poem! I am an AI and don't inherently "know" poems. 
 
-**The Shifting Sands of Aethel**
+**Tell me a poem you'd like me to read to you.** I can then display it for you. 
 
-From slumber deep, where starlight softly sleeps,
-A traveler awoke, where twilight gently creeps.
-No map he held, no compass to guide,
-Just whispers carried on a wind-swept tide.
-He stepped forth then, into Aethel's embrace,
-A land of wonder, a timeless, mystic space.
-
-The ground beneath, a shifting, golden sand,
-That flowed and molded at a whim of hand.
-Crystalline towers, kissed by amethyst skies,
-Reflected hues in his questioning eyes.
-The sun, a pearl, in a nebula's gleam,
-Painted the landscape of a waking dream.
-
-He journeyed onward, through forests of jade,
-Where luminous flora in silent dances swayed.
-Giant mushrooms, with caps of emerald light,
-Cast shadows dancing in the endless night.
-Creatures of myth, with wings of spun gold,
-Glanced from the branches, stories untold.
-
-A river of silver, a winding, cool grace,
-Reflected the stars in its shimmering trace.
-Whispers of voices, on the water did flow,
-Of ancient secrets, and long, long ago.
-He drank from its depths, a refreshing delight,
-And felt Aethel’s magic ignite in the night.
-
-He climbed mountains sculpted of obsidian stone,
-Where echoing winds sang a haunting monotone.
-And found ancient carvings, of beings long past,
-Whose wisdom lingered, eternally to last.
-Symbols of power, and knowledge profound,
-Whispered of cycles, that endlessly wound.
-
-Through valleys of silence, and deserts of fire,
-He faced his own shadows, fueled by desire.
-To understand Aethel, its mysteries deep,
-And secrets it guarded while mortals did sleep.
-He battled illusions, and fears held within,
-And found strength blooming where weakness had been.
-
-Then, a shimmering portal, a gateway of light,
-Appeared in the distance, a glorious sight.
-A swirling vortex of colors untold,
-A path to new wonders, both brave and bold.
-He hesitated, at the portal's embrace,
-A choice to be made, in this mystical place.
-
-To step through the gateway, to leave Aethel behind,
-Or remain in this wonder, a treasure to find.
-He closed his eyes, and with a resolute breath,
-Embarked on a journey, defying even death.
-For Aethel’s magic, had woven its spell,
-A story unending, that he knew so well.
-
-And though the landscape forever would change,
-The traveler carried Aethel's vibrant range.
-A memory etched, in the heart of his soul,
-A journey completed, making him whole.
-For Aethel's essence, a part he would keep,
-Within the slumber, and within the deep.
-
-
-
-I hope you enjoyed that! It's quite lengthy, but I tried to create something evocative. Let me know if you’d like me to try writing something different!
+I can handle many poems, from classics like Shakespeare to modern works. Just paste the text of the poem here, and I'll be happy to "read" it to you. 😊
 
 
 
@@ -8212,39 +8167,22 @@ I hope you enjoyed that! It's quite lengthy, but I tried to create something evo
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Assistant: A list comprehension is a concise way to create new lists based on existing iterables (like lists, tuples, or ranges). It's a more compact and often faster alternative to using a `for` loop to build a list.
+<pre>Assistant: ```python
+# List comprehension creates a new list based on an existing iterable (like a list, tuple, or range).
 
-**Basic Syntax:**
+# Basic syntax: [expression for item in iterable if condition]
 
-```python
-new_list = [expression for item in iterable if condition]
+# Example: Create a list of squares of numbers from 0 to 4
+squares = [x**2 for x in range(5)]  # squares will be [0, 1, 4, 9, 16]
+
+# Another example:  Filter even numbers from a list
+numbers = [1, 2, 3, 4, 5, 6]
+even_numbers = [x for x in numbers if x % 2 == 0] # even_numbers will be [2, 4, 6]
+
+# List comprehensions are often more concise and readable than traditional loops for creating lists.
 ```
 
-*   **`expression`**:  What you want to put into the new list. It can involve the `item`.
-*   **`item`**:  Represents each element in the `iterable`.
-*   **`iterable`**: The sequence (list, tuple, range, string, etc.) you're iterating over.
-*   **`condition`** (optional):  A filter; only items that meet the condition will be included in the new list.
-
-
-
-**Example:**
-
-```python
-# Create a list of squares of numbers from 0 to 9
-squares = [x**2 for x in range(10)] 
-print(squares)  # Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-
-# Create a list of even numbers from 0 to 19
-even_numbers = [x for x in range(20) if x % 2 == 0]
-print(even_numbers) # Output: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
-
-# Create a list of uppercase vowels from a string
-text = "Hello World"
-vowels = [char.upper() for char in text if char in "aeiou"]
-print(vowels) # Output: ['E', 'O', 'O']
-```
-
-In essence, list comprehensions provide a more readable and often more efficient way to create lists compared to traditional `for` loops. They're a powerful feature of Python!
+In essence, it's a compact way to create lists. It avoids explicit loops, making code more Pythonic. The `if condition` part is optional; it allows you to filter items from the iterable.
 
 </pre>
 </div>
@@ -8275,23 +8213,29 @@ In essence, list comprehensions provide a more readable and often more efficient
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>Assistant: ```python
-# Example: Create a list of the first 5 even numbers
+# Traditional loop to square numbers:
+squares_loop = []
+for i in range(5):
+  squares_loop.append(i**2)
+print(f"Squares using loop: {squares_loop}")
 
-# Without list comprehension (using a loop):
-even_numbers_loop = []
-for i in range(10):  # Iterate from 0 to 9
-  if i % 2 == 0:  # Check if the number is even
-    even_numbers_loop.append(i)
-
-print(f"Even numbers (loop): {even_numbers_loop}")
-
-# With list comprehension:
-even_numbers_comprehension = [i for i in range(10) if i % 2 == 0]
-
-print(f"Even numbers (comprehension): {even_numbers_comprehension}")
+# List comprehension to square numbers:
+squares_comprehension = [i**2 for i in range(5)]
+print(f"Squares using comprehension: {squares_comprehension}")
 ```
 
-This code demonstrates how the same task (creating a list of even numbers) can be achieved using both a `for` loop and a list comprehension. The list comprehension is more concise and often considered more Pythonic. Both will produce the same output: `[0, 2, 4, 6, 8]`.
+This demonstrates how a list comprehension accomplishes the same task as a `for` loop in a more compact way. The output will be:
+
+```
+Squares using loop: [0, 1, 4, 9, 16]
+Squares using comprehension: [0, 1, 4, 9, 16]
+```
+
+Notice how the list comprehension is more concise and often considered more readable.
+
+
+
+
 </pre>
 </div>
 </div>
@@ -8333,7 +8277,7 @@ This code demonstrates how the same task (creating a list of even numbers) can b
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Current usage: 1826/9216 tokens
+<pre>Current usage: 896/9216 tokens
 
 This prompt would use approximately 13 tokens
 </pre>
@@ -8453,39 +8397,43 @@ Score: 0.95
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>=== Branch 1 ===
-Once upon a time, there was a dragon named Zephyr. Now, Zephyr wasn't like the other dragons. Oh no. He didn't hoard gold or breathe scorching flames. Instead, he breathed bubbles. Big, iridescent bubbles that shimmered with all the colors of a rainbow. And he didn’t roar, he hummed. A low, melodic hum that resonated through the mountains and coaxed wildflowers to bloom even in the harshest winters.
+Once upon a time, there was a dragon named Zephyr, but he wasn’t like the dragons of legend. He didn't hoard gold or breathe roaring flames that melted mountains. Zephyr hoarded stories, and he breathed shimmering, iridescent bubbles of laughter. His scales were the color of a twilight sky, swirling with hues of amethyst, rose, and deep indigo. And he was exceptionally friendly and helpful.
 
-He lived not in a dark, forbidding cave, but in a hidden valley filled with sparkling waterfalls and fields of glowing moss. He wasn’t fierce or intimidating; in fact, Zephyr was terribly shy. He preferred observing the tiny creatures of the valley – the bumble-winged beetles, the gossiping glow-worms, and the mischievous sprites who loved to tangle his tail in vines. He’d gently puff bubbles towards them, each one containing a fleeting image – a sunrise, a laughing child, a field of ripe berries. 
+He lived in a hidden valley nestled amongst whispering willow trees and crystalline streams, a place so secluded that few humans ever stumbled upon it. Instead of terrorizing villages, Zephyr spent his days flitting through the clouds, listening to the whispers of the wind and the songs of birds. He gathered tales from travelers, from children’s dreams, and even from the rustling leaves of ancient forests. 
 
-The villagers in the nearby hamlet of Oakhaven whispered stories of the “Bubble Dragon,” dismissing him as a silly legend. They’d heard tales of a terrifying beast, but Zephyr’s gentleness was a secret, known only to the valley’s inhabitants. He worried he wouldn't fit in, that his bubbly nature was somehow…wrong. 
+He'd collect these stories, carefully storing them within the shimmering bubbles he breathed. Each bubble held a whole adventure - a brave knight’s quest, a mischievous pixie’s prank, a forgotten lullaby. He didn't *keep* the stories, not really. He cherished them, letting them swirl within him until he found the perfect moment to share them. 
 
-One day, a terrible drought fell upon Oakhaven. The river withered, the crops browned, and the villagers grew desperate. Their well, the source of their life, was drying up faster and faster. The village elder declared that only a legendary artifact, the Sunstone, could restore the water, but it was hidden deep within the Shadow Peaks, a place rumored to be cursed.
+One day, a young girl named Elara, lost and heartbroken, wandered into Zephyr’s valley. She had lost her grandmother, the only person who understood her love for stargazing. Tears traced paths down her cheeks as she sat by a babbling brook, feeling utterly alone. 
 
-Fear choked the village. No one dared to venture into the Shadow Peaks. But Zephyr, watching their plight from his valley, felt a pang of empathy. He knew, somehow, that he was meant to help. Without hesitation, Zephyr spread his iridescent wings and flew towards Oakhaven. 
+Zephyr, watching from above, sensed her sadness. He descended slowly, his scales catching the sunlight, and floated before her. Elara gasped, not in fear, but in wonder. She’d only ever seen dragons in dusty old books. 
 
-“I’ll find the Sunstone,” he hummed, his voice a gentle melody that calmed the worried villagers. He didn’t boast or threaten; he simply offered his help. The villagers, hesitant at first, watched as Zephyr soared into the ominous Shadow Peaks. 
+He didn't roar. He didn’t threaten. Instead, he breathed a shimmering bubble of laughter right towards her. The bubble drifted gently, landing softly on her outstretched hand. As it burst, a tiny, sparkling scene unfolded: a star-filled sky, a gentle breeze, and Elara’s grandmother pointing out constellations. 
 
-Throughout his journey, Zephyr proved to be remarkably friendly and helpful. He used his bubbles to light his way through the darkest tunnels, creating shimmering paths that illuminated the perilous terrain. He gently nudged loose rocks from the path of smaller creatures, ensuring their safe passage. He even shared bubbles filled with soothing images of lush meadows and flowing streams with the frightened mountain goats, calming their nerves and gaining their trust. 
+Elara's eyes widened, a small smile forming on her lips. Zephyr continued to breathe bubbles of stories, each one tailored to soothe her sorrow and remind her of her grandmother’s love. He showed her a memory of her grandmother teaching her the names of the stars, a playful chase through a meadow, and a warm hug under a blanket of twinkling lights. He even helped her find a lost kitten, using his keen eyesight to locate it nestled amongst some ferns! He offered her a ride on his back, soaring gently above the valley, pointing out the best places to look for shooting stars. 
 
-He wasn't a warrior, but he was resourceful, kind, and utterly determined to help. He wasn’t looking for glory; he simply wanted to alleviate the suffering of the villagers of Oakhaven. He was, quite simply, the most helpful dragon anyone had ever heard of. His journey had begun, and it was far more than just saving a village; it was about discovering the true power hidden within a heart of bubbles – a power of kindness, compassion, and unwavering helpfulness.
+And so, Zephyr wasn’t a fearsome dragon; he was a benevolent guardian and a wonderful friend. He didn't hoard treasures, he shared joy. He didn’t breathe fire, he offered comfort. He was a beacon of kindness, proving that even the most magnificent creatures can possess the gentlest hearts.
 
 
 
 === End of 1 ===
 === Branch 2 ===
-Once upon a time, there was a dragon named Ignis. He wasn't like the gentle dragons of legend. Ignis *was* legend – the legend of the Obsidian Fury. He was fierce, terrifying, and feared throughout the scorched lands of the Dragon's Tooth Mountains. His scales were the color of volcanic glass, reflecting the inferno that constantly simmered within him. Smoke curled from his nostrils, smelling not of wildflowers, but of sulfur and burnt earth.
+Once upon a time, there was a dragon named Ignis. He wasn't a gentle creature of shimmering bubbles and laughter. Ignis was *fierce*. His scales were obsidian, jagged and sharp, reflecting the flickering embers of the volcanic heart he called home.  Smoke curled from his nostrils, smelling not of wildflowers, but of brimstone and ancient rage.
 
-Ignis didn't hum. He roared. A deafening, earth-shattering roar that could crack mountains and send tremors through the very ground. And he didn't breathe bubbles. He breathed fire. Rivers of molten fury that consumed everything in their path. He guarded a hoard of gold – not for its beauty, but for the power it represented. Each glittering coin fueled his rage, each jeweled crown stoked his ambition.
+Ignis ruled the jagged peaks of Mount Cinderfang, a desolate landscape of scorched earth and perpetually stormy skies. He didn't flit through clouds; he *dominated* them, his massive wings eclipsing the sun, casting the valleys below into perpetual twilight.  He didn't listen to whispers of the wind; he *commanded* the storms, whipping winds and torrential rain to his will.
 
-He lived in a vast, volcanic cave deep within the Dragon's Tooth Mountains, a lair choked with the bones of those who dared trespass. He wasn’t shy; he reveled in fear. Villages trembled at the mere whisper of his name. Knights vowed to slay him, kings offered vast treasures for his demise, and mages concocted powerful spells to bind him. All to no avail. Ignis remained untouchable, a terrifying force of nature.
+He was known throughout the land, not for kindness or stories, but for terror. Villages trembled at his shadow, knights dared not venture near his lair, and even the bravest warriors whispered his name with a shiver.  He didn’t hoard gold; he hoarded power, a burning desire to control everything within his reach.  His cave wasn’t filled with trinkets; it was piled high with the bones of those who dared to challenge him, a grim monument to his dominance.
 
-The villagers of Silverstream, nestled in the valley below, had lived under his shadow for generations. They offered him tribute – livestock, crops, sometimes even people – hoping to appease his wrath and avoid being incinerated. They knew him only as a monster, a destroyer. They’d built their lives around his fear, their days dictated by the unpredictable whims of the Obsidian Fury.
+Ignis didn't gather stories, he *destroyed* them, consuming the narratives of hope and joy, leaving only echoes of despair in their wake.  He’d roar, a sound that cracked stone and shattered spirits, and revel in the fear he instilled.  He saw weakness in every creature, and he delighted in breaking their spirit. 
 
-One year, the drought came early and fiercely. The river Silverstream dwindled, the crops withered, and the people of Silverstream starved. They offered Ignis their last precious treasures – their ancestral carvings, their finest pottery – hoping for mercy. But Ignis, fueled by the dwindling hope of the villagers, only roared louder, a sound that echoed with cold indifference. He didn’t crave their treasures; he craved their despair. He saw their fear as a delicious meal.
+One fateful day, a young woman named Lyra, desperate to save her village from Ignis's fiery wrath, climbed Mount Cinderfang.  She wasn't armed with a sword or a shield.  She carried only a single, worn book filled with tales of heroes – stories Ignis had systematically extinguished. 
 
-But this year, a young woman named Lyra refused to offer tribute. She was a healer, and she believed that appeasement only fueled Ignis's hunger. She ventured to the mouth of his cave, not with offerings, but with a simple plea – not for mercy, but for understanding. She spoke of the suffering in Silverstream, the desperate hunger, the dying children. 
+She knew she couldn't fight him.  But she hoped, somehow, to rekindle a flicker of something buried deep within the dragon’s heart. 
 
-Ignis, used to only fear and tribute, paused. The sound of pleading, of genuine sorrow, resonated within him in a way he’d never experienced. He hadn't expected compassion. He hadn't anticipated a voice that didn't tremble, that didn't beg, but that simply…spoke. And in that moment, a flicker of something unfamiliar stirred within the Obsidian Fury. Perhaps even a dragon, no matter how fierce, could feel a spark of something beyond destruction. His journey had begun, and it was about more than just terror; it was about confronting the emptiness within his heart.
+As she approached his lair, Ignis unleashed a torrent of flame.  Lyra stood her ground, holding the book aloft. "You may burn and destroy," she called out, her voice barely audible above the roaring fire, "but you cannot extinguish the stories. Stories live on, passed from one generation to the next, whispered in dreams and etched in the very fabric of existence!"
+
+Ignis roared, a sound of disbelief and fury.  He’d never encountered defiance like this.  He lunged towards her, but Lyra, with surprising speed, flung open the book.  The pages fluttered in the wind, releasing a faint, ethereal light.  
+
+The light wasn't a weapon. It was the echo of countless heroes, the resonance of bravery, the power of hope woven into words. And for the first time in centuries, a flicker of doubt crossed Ignis’s obsidian eyes. The stories…they stirred something within him, a forgotten longing, a whisper of what it meant to be more than just a terrifying force of nature.
 
 
 

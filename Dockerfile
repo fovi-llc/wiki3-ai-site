@@ -16,11 +16,12 @@ RUN apt-get update && apt-get install -y \
 WORKDIR ${APP_DIR}
 COPY . ${APP_DIR}
 
-RUN pip install --upgrade pip \
+RUN git submodule update --init --recursive \
+    && pip install --upgrade pip \
     && pip install uv \
     && uv pip install --system . \
-    && uv pip install --system built-in-chat/ \
-    && uv pip install --system lite-kernel/
+    && uv pip install --system built-in-ai-chat-kernel/ \
+    && uv pip install --system built-in-ai-webllm-kernel/
 
 RUN rm -rf docs .jupyterlite.doit.db \
     && jupyter lite build
