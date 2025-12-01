@@ -1,7 +1,8 @@
 {
     "name": "JupyterLite",
     "build": {
-        "dockerfile": "../Dockerfile",
+        "dockerfile": "../../Dockerfile",
+        "context": "../..",
         "args": {
             "APP_DIR": "/workspaces/wiki3-ai-site"
         }
@@ -20,5 +21,6 @@
         "JUPYTER_PORT": "8888",
         // "GRANT_SUDO": "yes"
         // "RESTARTABLE": "yes"
-    }
+    },
+    "postStartCommand": "jupyter lite serve"
 }

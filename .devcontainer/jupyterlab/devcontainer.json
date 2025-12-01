@@ -1,0 +1,19 @@
+{
+    "name": "JupyterLab",
+    "image": "quay.io/jupyter/minimal-notebook:lab-4.5.0",
+    "forwardPorts": [
+        8888
+    ],
+    "portsAttributes": {
+        "8888": {
+            "label": "JupyterLab",
+            "requireLocalPort": true
+        }
+    },
+    "containerEnv": {
+        "JUPYTER_PORT": "8888"
+        // "RESTARTABLE": "yes"
+    },
+    "postCreateCommand": "pip install -e .[dev]",
+    "postStartCommand": "cd files && jupyter lab"
+}
