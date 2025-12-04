@@ -86,15 +86,15 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.446572Z",
+      "created": "2025-12-04T01:16:17.837489Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-12-01T19:06:50Z",
+      "last_modified": "2025-12-04T01:15:45Z",
       "mimetype": null,
       "name": "webllm-kernel.ipynb",
       "path": "webllm-kernel.ipynb",
-      "size": 8815,
+      "size": 9292,
       "type": "notebook",
       "writable": true
     },
@@ -127,11 +127,11 @@
       "writable": true
     }
   ],
-  "created": "2025-12-04T01:05:03.448330Z",
+  "created": "2025-12-04T01:16:17.836848Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-12-04T01:05:03.448330Z",
+  "last_modified": "2025-12-04T01:16:17.836848Z",
   "mimetype": null,
   "name": "",
   "path": "",
