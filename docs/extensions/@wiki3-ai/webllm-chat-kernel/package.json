@@ -1,9 +1,10 @@
 {
   "name": "@wiki3-ai/webllm-chat-kernel",
-  "version": "0.1.2",
+  "version": "0.2.5",
   "jupyterlab": {
     "extension": true,
     "outputDir": "labextension",
+    "schemaDir": "./schema",
     "sharedPackages": {
       "@jupyterlab/application": {
         "bundled": false,
@@ -14,6 +15,10 @@
         "singleton": true
       },
       "@jupyterlab/services": {
+        "bundled": false,
+        "singleton": true
+      },
+      "@jupyterlab/settingregistry": {
         "bundled": false,
         "singleton": true
       }

@@ -6,3 +6,7 @@
 	path = built-in-ai-webllm-kernel
 	url = https://github.com/wiki3-ai/built-in-ai-webllm-kernel
 	ignore = dirty
+[submodule "webllm-chat-kernel"]
+	path = webllm-chat-kernel
+	url = https://github.com/wiki3-ai/webllm-chat-kernel.git
+	ignore = dirty
