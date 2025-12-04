@@ -1,6 +1,6 @@
 {
   "name": "@wiki3-ai/built-in-chat",
-  "version": "0.1.2",
+  "version": "0.2.6dev7",
   "jupyterlab": {
     "extension": true,
     "outputDir": "labextension",

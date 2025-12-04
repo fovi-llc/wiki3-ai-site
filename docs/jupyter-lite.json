@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "Wiki3.ai",
     "appUrl": "./wiki",
-    "appVersion": "0.2.0",
+    "appVersion": "0.3.1.dev1",
     "baseUrl": "./",
     "defaultKernelName": "python",
     "defaultUrl": "./wiki/index.html",
@@ -10,7 +10,7 @@
     "federated_extensions": [
       {
         "extension": "./extension",
-        "load": "static/remoteEntry.7a71a85038a02ea552e8.js",
+        "load": "static/remoteEntry.7b426e34c9bd9f45e6dc.js",
         "name": "@jupyter-notebook/lab-extension",
         "style": "./style"
       },

@@ -2,7 +2,7 @@
   "content": [
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.441015Z",
+      "created": "2025-12-04T08:58:25.277707Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -16,7 +16,7 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.440200Z",
+      "created": "2025-12-04T08:58:25.276677Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -30,7 +30,7 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.441785Z",
+      "created": "2025-12-04T08:58:25.278673Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -44,7 +44,7 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.437327Z",
+      "created": "2025-12-04T08:58:25.273822Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -58,7 +58,7 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.436509Z",
+      "created": "2025-12-04T08:58:25.272970Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -72,7 +72,7 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.435510Z",
+      "created": "2025-12-04T08:58:25.272054Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -86,7 +86,7 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.433845Z",
+      "created": "2025-12-04T08:58:25.270092Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -100,7 +100,7 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.434654Z",
+      "created": "2025-12-04T08:58:25.271188Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -114,7 +114,7 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.438085Z",
+      "created": "2025-12-04T08:58:25.274622Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -128,7 +128,7 @@
     },
     {
       "content": null,
-      "created": "2025-12-04T01:05:03.439107Z",
+      "created": "2025-12-04T08:58:25.275670Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -141,11 +141,11 @@
       "writable": true
     }
   ],
-  "created": "2025-12-04T01:05:03.441481Z",
+  "created": "2025-12-04T08:58:25.278244Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-12-04T01:05:03.441481Z",
+  "last_modified": "2025-12-04T08:58:25.278244Z",
   "mimetype": null,
   "name": "notebooks",
   "path": "notebooks",

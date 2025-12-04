@@ -1,6 +1,6 @@
 [project]
 name = "wiki3-ai-site"
-version = "0.3.0"
+version = "0.3.1.dev1"
 description = "Wiki3.ai JupyterLite Site"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -12,7 +12,7 @@ dependencies = [
     "jupyterlite-pyodide-kernel<0.7.0",
     "jupyter-server",
     "matplotlib",
-    "notebook",
+    "notebook<7.5.0",
     "numpy",
     "pandas",
     "panel",
