@@ -1,6 +1,6 @@
 [project]
 name = "wiki3-ai-site"
-version = "0.3.1.dev1"
+version = "0.3.2"
 description = "Wiki3.ai JupyterLite Site"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -26,12 +26,21 @@ dev = [
     "jupyterlab>=4.4.0,<5",
 ]
 
+kernels = [
+    "ai-sdk-chat-kernel @ file:./ai-sdk-chat-kernel",
+    "built-in-chat @ file:./built-in-ai-chat-kernel",
+    "webllm-chat-kernel @ file:./webllm-chat-kernel",
+]
+
 [project.entry-points."jupyterlite.addon.v0"]
 wiki = "jupyterlite_wiki_addon.addon:WikiPageAddon"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["jupyterlite_wiki_addon"]

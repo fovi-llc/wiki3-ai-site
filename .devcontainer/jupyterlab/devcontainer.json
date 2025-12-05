@@ -14,6 +14,6 @@
         "JUPYTER_PORT": "8888"
         // "RESTARTABLE": "yes"
     },
-    "postCreateCommand": "pip install -e .[dev]",
+    "postCreateCommand": "pip install -e .",
     "postStartCommand": "cd files && jupyter lab"
 }

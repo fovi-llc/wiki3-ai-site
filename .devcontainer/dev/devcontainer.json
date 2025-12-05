@@ -1,0 +1,25 @@
+{
+    "name": "Develop with JupyterLite in JupyterLab",
+    "image": "quay.io/jupyter/minimal-notebook:lab-4.5.0",
+    "forwardPorts": [
+        8888,
+        8000
+    ],
+    "portsAttributes": {
+        "8888": {
+            "label": "JupyterLab",
+            "requireLocalPort": true
+        },
+        "8000": {
+            "label": "JupyterLite",
+            "requireLocalPort": true
+        }
+    },
+    "containerEnv": {
+        "JUPYTER_PORT": "8888",
+        "JUPYTERLITE_PORT": "8000"
+        // "RESTARTABLE": "yes"
+    },
+    "postCreateCommand": "mamba install -y nodejs && git submodule update --init --recursive && pip install -e .[dev,kernels]",
+    "postStartCommand": "cd files && jupyter lab"
+}
