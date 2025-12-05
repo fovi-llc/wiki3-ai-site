@@ -20,6 +20,7 @@ RUN git submodule update --init --recursive \
     && pip install --upgrade pip \
     && pip install uv \
     && uv pip install --system . \
+    && uv pip install --system ai-sdk-chat-kernel/ \
     && uv pip install --system built-in-ai-chat-kernel/ \
     && uv pip install --system webllm-chat-kernel/
 
